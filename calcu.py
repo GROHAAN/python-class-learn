@@ -31,6 +31,19 @@ while(True):
                     l.append(value)
                     mul = mul*value
                 print(f"mul of given value {i} is {mul}")
+            
+            if n==4:
+                div,l=0,[]
+                n = int(input("enter how many no. you want to div"))     
+                for i in range (1,n+1):
+                    value = int(input(f"Enter {i} value : "))
+                    if i ==1:
+                        div = value
+                        l.append(value)
+                    else:
+                        div = div/value
+                        l.append(value)
+                    print(f"div of given value {i} is {div}")
         else:
             break        
     else:
