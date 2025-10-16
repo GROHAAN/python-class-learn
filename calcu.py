@@ -44,6 +44,10 @@ while(True):
                         div = div/value
                         l.append(value)
                     print(f"div of given value {i} is {div}")
+
+                
+
+            
         else:
             break        
     else:
