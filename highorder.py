@@ -51,3 +51,45 @@ from functools import reduce
 #         return y
 # result = reduce(max,l)
 # print(result)
+
+#lambda
+
+
+# p = lambda x,y: print(x+y)
+# z= p(4,5)
+# print(z)
+# # print(p(3,4))
+
+# map() with lambda
+
+
+# l = [1,2,3,4,5]
+# # print(list(map(lambda n: n*n,l)))
+
+# #or
+
+# result = list(map(lambda n: n*n, l))
+# print (result)
+
+# practice multiple list
+# l1 = [1,2,3,4,5,5]
+# l2 = [2,4,5,6]
+# l3 = [1,4,5,7,7,7,9]
+
+# print(list(map(lambda x,y,z: x+y+z , l1, l2, l3)))
+
+# filter() with lambda
+
+# l = [1,2,4,4,5,6,6]
+# print(list(filter(lambda n:n if n%2==0 else None, l))) # how we also use if else here
+
+# print(list(filter(lambda n: 'even' if n%2==0 'odd' else, l)))
+
+l = [1,2,9,5,6,7,8,8]
+print(reduce(lambda x,y: x+y,l))
+
+print(reduce(lambda x,y: x if x>y else y, l)) # for max value
+
+print(reduce(lambda x,y: x if x<y else y, l)) # for min value
+
+

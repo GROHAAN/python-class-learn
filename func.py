@@ -164,9 +164,9 @@
 # print(x,y)
 # print(p,q)
 
-x,y = 10,20
-def add():
-    x= 39
-    print(globals()['x']+x)
-add()
-print(x)
+# x,y = 10,20
+# def add():
+#     x= 39
+#     print(globals()['x']+x)
+# add()
+# print(x)
