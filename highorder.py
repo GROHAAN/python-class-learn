@@ -85,11 +85,12 @@ from functools import reduce
 
 # print(list(filter(lambda n: 'even' if n%2==0 'odd' else, l)))
 
-l = [1,2,9,5,6,7,8,8]
-print(reduce(lambda x,y: x+y,l))
+# l = [1,2,9,5,6,7,8,8]
+# print(reduce(lambda x,y: x+y,l))
 
-print(reduce(lambda x,y: x if x>y else y, l)) # for max value
+# print(reduce(lambda x,y: x if x>y else y, l)) # for max value
 
-print(reduce(lambda x,y: x if x<y else y, l)) # for min value
+# print(reduce(lambda x,y: x if x<y else y, l)) # for min value
+
 
 
